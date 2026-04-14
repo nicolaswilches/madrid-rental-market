@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Excel temp/lock files
+~$*.xlsx
+~$*.xls
+
+# Generated outputs (keep folder structure, not contents)
+outputs/*
+!outputs/figures/
+outputs/figures/*
+!outputs/figures/.gitkeep
+
+# LaTeX build artifacts
+reports/*.aux
+reports/*.log
+reports/*.out
+reports/*.toc
+reports/*.synctex.gz
+reports/*.fls
+reports/*.fdb_latexmk
+
+# Claude
+.claude/worktrees/
